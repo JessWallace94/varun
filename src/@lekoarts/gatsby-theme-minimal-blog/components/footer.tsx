@@ -26,7 +26,7 @@ const Footer = () => {
       <div>
 
         {` `}
-        Customised with ♥ by
+        customised with ♥ by
         {` `}
         <Styled.a aria-label="Link to the developers twitter" href="https://twitter.com/jesswallaceuk">
           @jesswallaceuK
