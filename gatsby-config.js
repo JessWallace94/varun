@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Varun Choraria`,
+    siteTitle: `varun choraria`,
     siteHeadline: `Random but curious mortal`,
     siteDescription: ``,
     siteLanguage: ``,
@@ -14,21 +14,21 @@ module.exports = {
     siteUrl: `http://localhost:8000`,
     navigation: [
       {
-        title: `Blog`,
+        title: `/ blog`,
         slug: `/blog`,
       },
       {
-        title: `Notes`,
+        title: `/ notes`,
         slug: `/notes`,
       },
 
       {
-        title: `Prod Mgmt`,
+        title: `/ prod mgmt`,
         slug: `/prodmgmt`,
       },
 
       {
-        title: `About`,
+        title: `/ about`,
         slug: `/about`,
       },
 
