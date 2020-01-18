@@ -4,17 +4,41 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Varun Choraria`,
+    siteHeadline: `Random but curious mortal`,
+    siteDescription: ``,
+    siteLanguage: ``,
+    siteImage: ``,
+    author: ``,
+    siteTitleAlt: `Varun  Choraria -  Random  but curious  mortal`,
+    siteUrl: `http://localhost:8000`,
     navigation: [
       {
         title: `Blog`,
         slug: `/blog`,
       },
       {
+        title: `Notes`,
+        slug: `/notes`,
+      },
+
+      {
+        title: `Prod Mgmt`,
+        slug: `/prodmgmt`,
+      },
+
+      {
         title: `About`,
         slug: `/about`,
       },
+
     ],
+
+    tagsPath: `tags`,
+    basePath: `/`,
+    blogPath: `blog`,
+
+    showLineNumbers: true
   },
   plugins: [
     {
