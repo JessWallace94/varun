@@ -32,6 +32,11 @@ const Blog = ({ posts }: PostsProps) => {
           view all tags
         </Styled.a>
       </Flex>
+
+      <Styled.p>
+        My semi-coherent perspectives on how the world works and anything in it that intrigues me.
+
+      </Styled.p>
       <Listing posts={posts} sx={{ mt: [3, 4] }} />
     </Layout>
   )
